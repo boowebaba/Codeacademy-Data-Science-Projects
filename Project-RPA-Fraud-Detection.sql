@@ -1,6 +1,6 @@
  select * from transaction_data;
 
---Start by getting a feel for the transaction_data table:
+--1. Start by getting a feel for the transaction_data table:
 
  select * from transaction_data limit 10;
 
@@ -30,3 +30,4 @@ where email like '%temp_email.com';
 
 select full_name,ip_address,email From transaction_data
 where ip_address like "120%" and full_name like "John%";
+
