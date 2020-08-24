@@ -30,3 +30,4 @@ where email like '%temp_email.com';
 
 select full_name,ip_address,email From transaction_data
 where ip_address like "120%" and full_name like "John%";
+
